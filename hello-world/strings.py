@@ -9,3 +9,13 @@ name = input("Please enter a name ")
 #comments comments comments
 
 print(greeting + ' ' + name)
+
+age = 25
+print("age:",age)
+print("type(age):",type(age))
+age = "25"
+
+print("age:",age)
+print("type(age):",type(age))
+
+# Python doesn't set the value of a variable, but rather rebinds the value of the variable to the new value that has been set equal to, no more binding functions
