@@ -18,6 +18,8 @@ age = "25"
 print("age:",age)
 print("type(age):",type(age))
 
+print(name + f"'s age is {age}") #Section 3.36 example for f-strings, basically an alternative to replacement fields and the format function; problem with f-strings is it isnt backwards compatible with version 3.4 of python
+
 # Python doesn't set the value of a variable, but rather rebinds the value of the variable to the new value that has been set equal to, no more binding functions
 
 #Python 3 ints dont have a max value, so the computer will run out of memorary first :)))
